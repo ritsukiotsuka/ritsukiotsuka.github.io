@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		5A5147A9862FDEB86554DB7E /* Ritsukiotsuka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ritsukiotsuka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5147A9862FDEB86554DB7E /* ritsukiotsuka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ritsukiotsuka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -59,7 +59,7 @@
 		5F6ABC3B2CF89F48384CF723 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A5147A9862FDEB86554DB7E /* Ritsukiotsuka.app */,
+				5A5147A9862FDEB86554DB7E /* ritsukiotsuka.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,7 +87,7 @@
 			packageProductDependencies = (
 			);
 			productName = iosApp;
-			productReference = 5A5147A9862FDEB86554DB7E /* Ritsukiotsuka.app */;
+			productReference = 5A5147A9862FDEB86554DB7E /* ritsukiotsuka.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
