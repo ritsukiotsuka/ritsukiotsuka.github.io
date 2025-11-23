@@ -26,16 +26,20 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalUriHandler
-import androidx.compose.ui.platform.UriHandler
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import io.github.ritsukiotsuka.component.SocialMediaIcon
 import org.jetbrains.compose.resources.painterResource
+import org.jetbrains.compose.resources.stringResource
 import org.jetbrains.compose.ui.tooling.preview.Preview
 import ritsukiotsuka.composeapp.generated.resources.Res
+import ritsukiotsuka.composeapp.generated.resources.copyright
 import ritsukiotsuka.composeapp.generated.resources.ic_profile_image
+import ritsukiotsuka.composeapp.generated.resources.job_title
+import ritsukiotsuka.composeapp.generated.resources.name
+import ritsukiotsuka.composeapp.generated.resources.profile_picture_description
 
 @Composable
 fun App() {
@@ -57,7 +61,7 @@ fun App() {
 
                 Image(
                     painter = painterResource(Res.drawable.ic_profile_image),
-                    contentDescription = "Profile Picture",
+                    contentDescription = stringResource(Res.string.profile_picture_description),
                     modifier = Modifier
                         .size(120.dp)
                         .border(
@@ -71,7 +75,7 @@ fun App() {
                 Spacer(Modifier.height(16.dp))
 
                 Text(
-                    text = "Ritsuki Otsuka",
+                    text = stringResource(Res.string.name),
                     color = Color.Black,
                     fontSize = 28.sp,
                     fontWeight = FontWeight.Bold,
@@ -81,7 +85,7 @@ fun App() {
                 Spacer(Modifier.height(8.dp))
 
                 Text(
-                    text = "Software Engineer - Android",
+                    text = stringResource(Res.string.job_title),
                     color = Color.Gray,
                     fontSize = 16.sp,
                     textAlign = TextAlign.Center,
@@ -101,7 +105,7 @@ fun App() {
                 }
 
                 Text(
-                    text = "Copyright © 2025 ritsukiotsuka",
+                    text = stringResource(Res.string.copyright),
                     color = Color.Gray,
                     fontSize = 12.sp,
                     textAlign = TextAlign.Center,
