@@ -71,7 +71,7 @@ fun App() {
                 Spacer(Modifier.height(16.dp))
 
                 Text(
-                    text = "Ritsuki Otsuka",
+                    text = ProfileConstants.PROFILE_NAME,
                     color = Color.Black,
                     fontSize = 28.sp,
                     fontWeight = FontWeight.Bold,
@@ -81,7 +81,7 @@ fun App() {
                 Spacer(Modifier.height(8.dp))
 
                 Text(
-                    text = "Software Engineer - Android",
+                    text = ProfileConstants.PROFILE_TITLE,
                     color = Color.Gray,
                     fontSize = 16.sp,
                     textAlign = TextAlign.Center,
@@ -101,7 +101,7 @@ fun App() {
                 }
 
                 Text(
-                    text = "Copyright © 2025 ritsukiotsuka",
+                    text = ProfileConstants.COPYRIGHT_TEXT,
                     color = Color.Gray,
                     fontSize = 12.sp,
                     textAlign = TextAlign.Center,
