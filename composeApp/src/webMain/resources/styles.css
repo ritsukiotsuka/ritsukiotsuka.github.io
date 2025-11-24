@@ -5,3 +5,11 @@ html, body {
     padding: 0;
     overflow: hidden;
 }
+
+/* Enable text selection for all elements */
+* {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
